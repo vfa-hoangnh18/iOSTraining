@@ -1,0 +1,16 @@
+PODS:
+  - SwiftDispatchOnce (1.0.0)
+
+DEPENDENCIES:
+  - SwiftDispatchOnce (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - SwiftDispatchOnce
+
+SPEC CHECKSUMS:
+  SwiftDispatchOnce: 80eae461ec465105905cd20b3390d5c737a62d32
+
+PODFILE CHECKSUM: dfd39491bb4e3200a0df1d68c188c3a2ad987635
+
+COCOAPODS: 1.8.4

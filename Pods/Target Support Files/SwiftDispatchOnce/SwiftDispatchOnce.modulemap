@@ -1,0 +1,6 @@
+module SwiftDispatchOnce {
+  umbrella header "SwiftDispatchOnce-umbrella.h"
+
+  export *
+  module * { export * }
+}
