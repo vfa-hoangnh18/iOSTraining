@@ -64,23 +64,42 @@ class Demo13ViewController: UIViewController {
         
     }
     @IBAction func onClickedBtn79(_ sender: Any) {
-        let group = DispatchGroup.init()
-        group.enter()
-        doSomeThing1()
-        group.enter()
-        doSomeThing2()
-        group.leave()
-        group.leave()
-        
-        group.notify(queue: .main) {
-            print("complete")
+        //wait
+        /*let concurentQueue = DispatchQueue(label: "com.demo.testWaitGroup",  attributes: .concurrent)
+        concurentQueue.async {
+            let group = DispatchGroup()
+            for i in 1..<10{
+                group.enter()
+                print("###task \(i)")
+                Thread.sleep(forTimeInterval: 0.5)
+                
+                group.leave()
+            }
+            group.wait()
+            DispatchQueue.main.async {
+                print("it's on main thread here")
+            }
+        }*/
+        //notify
+        let concurentQueue = DispatchQueue(label: "com.demo.testNotifyGroup",  attributes: .concurrent)
+        concurentQueue.async {
+            let group = DispatchGroup()
+            for i in 1..<10{
+                group.enter()
+                print("###task \(i)")
+                Thread.sleep(forTimeInterval: 0.5)
+                
+                group.leave()
+            }
+            group.notify(queue: .main, execute: {
+                print("it's on main thread here")
+            })
         }
     }
     @IBAction func onClickedBtn78(_ sender: Any) {
-        /*
-         DispatchQueue.once(token: "com.mydomain.uniqueName") {
-         printFrom1To1000()
-         }*/
+         DispatchQueue.once(token: "com.demo.uniqueTask") {
+            self.printRange(from: 1, to: 20)
+         }
         
     }
     @IBAction func onClickedBtn77(_ sender: Any) {
