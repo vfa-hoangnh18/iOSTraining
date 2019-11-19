@@ -1,16 +1,25 @@
 PODS:
-  - SwiftDispatchOnce (1.0.0)
+  - GoogleMaps (3.6.0):
+    - GoogleMaps/Maps (= 3.6.0)
+  - GoogleMaps/Base (3.6.0)
+  - GoogleMaps/Maps (3.6.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.6.0):
+    - GoogleMaps/Base (= 3.6.0)
 
 DEPENDENCIES:
-  - SwiftDispatchOnce (~> 1.0)
+  - GoogleMaps
+  - GooglePlaces
 
 SPEC REPOS:
   trunk:
-    - SwiftDispatchOnce
+    - GoogleMaps
+    - GooglePlaces
 
 SPEC CHECKSUMS:
-  SwiftDispatchOnce: 80eae461ec465105905cd20b3390d5c737a62d32
+  GoogleMaps: 82f8fe307193bb4de6ef6bf9e88f1d624b718f9d
+  GooglePlaces: 1b9d29cf3e164903d873600f511f42acdfe85294
 
-PODFILE CHECKSUM: dfd39491bb4e3200a0df1d68c188c3a2ad987635
+PODFILE CHECKSUM: 36409a9a71e538a6043e195bd1fb84c8adb255e2
 
 COCOAPODS: 1.8.4

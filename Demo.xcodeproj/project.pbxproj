@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B10C4025ECD1F1A5968017D6 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C962AC4F06A341AD1CB2809 /* libPods-Demo.a */; };
+		C32CD41F2382A305005A7F8B /* MapMarkerWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32CD41E2382A305005A7F8B /* MapMarkerWindowView.xib */; };
 		C32F03DC23727FD0003C8BF8 /* PhoneBookDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32F03DB23727FD0003C8BF8 /* PhoneBookDetailController.swift */; };
 		C32F03DF23728828003C8BF8 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32F03DE23728828003C8BF8 /* CollectionViewController.swift */; };
 		C32F03E123729E2E003C8BF8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32F03E023729E2E003C8BF8 /* CollectionViewCell.swift */; };
@@ -18,6 +19,11 @@
 		C35BF304236FD41B00A4ED6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35BF302236FD41B00A4ED6A /* LaunchScreen.storyboard */; };
 		C36420E5237CFF610032AEEA /* CountingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36420E4237CFF610032AEEA /* CountingOperation.swift */; };
 		C36420E7237D56900032AEEA /* DispatchQueueE.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36420E6237D56900032AEEA /* DispatchQueueE.swift */; };
+		C397B51B237E7B6200740DF9 /* Demo15ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C397B51A237E7B6200740DF9 /* Demo15ViewController.swift */; };
+		C397B51E237E7BF200740DF9 /* Demo14ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C397B51C237E7BF200740DF9 /* Demo14ViewController.swift */; };
+		C397B51F237E7BF200740DF9 /* Demo14ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C397B51D237E7BF200740DF9 /* Demo14ViewController.xib */; };
+		C397B521237E870B00740DF9 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C397B520237E870B00740DF9 /* CustomAnnotation.swift */; };
+		C397B524237EAB8E00740DF9 /* GoogleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C397B523237EAB8E00740DF9 /* GoogleMapViewController.swift */; };
 		C3C580C42371642D00C5D17C /* PhoneBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C580C32371642D00C5D17C /* PhoneBookViewController.swift */; };
 		C3C580C623716C9800C5D17C /* PhoneBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C580C523716C9800C5D17C /* PhoneBookTableViewCell.swift */; };
 		C3D968D62378FE9C0002E7DB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D968D52378FE9C0002E7DB /* BaseViewController.swift */; };
@@ -34,6 +40,7 @@
 /* Begin PBXFileReference section */
 		030F5162DC3C7733D3E5060F /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		0C962AC4F06A341AD1CB2809 /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32CD41E2382A305005A7F8B /* MapMarkerWindowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapMarkerWindowView.xib; sourceTree = "<group>"; };
 		C32F03DB23727FD0003C8BF8 /* PhoneBookDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBookDetailController.swift; sourceTree = "<group>"; };
 		C32F03DE23728828003C8BF8 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		C32F03E023729E2E003C8BF8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
@@ -46,6 +53,11 @@
 		C35BF305236FD41B00A4ED6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C36420E4237CFF610032AEEA /* CountingOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingOperation.swift; sourceTree = "<group>"; };
 		C36420E6237D56900032AEEA /* DispatchQueueE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueE.swift; sourceTree = "<group>"; };
+		C397B51A237E7B6200740DF9 /* Demo15ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo15ViewController.swift; sourceTree = "<group>"; };
+		C397B51C237E7BF200740DF9 /* Demo14ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo14ViewController.swift; sourceTree = "<group>"; };
+		C397B51D237E7BF200740DF9 /* Demo14ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo14ViewController.xib; sourceTree = "<group>"; };
+		C397B520237E870B00740DF9 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		C397B523237EAB8E00740DF9 /* GoogleMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapViewController.swift; sourceTree = "<group>"; };
 		C3C580C32371642D00C5D17C /* PhoneBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBookViewController.swift; sourceTree = "<group>"; };
 		C3C580C523716C9800C5D17C /* PhoneBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBookTableViewCell.swift; sourceTree = "<group>"; };
 		C3D968D52378FE9C0002E7DB /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -147,9 +159,31 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		C397B519237E7B3400740DF9 /* demo15 */ = {
+			isa = PBXGroup;
+			children = (
+				C397B51A237E7B6200740DF9 /* Demo15ViewController.swift */,
+				C397B51C237E7BF200740DF9 /* Demo14ViewController.swift */,
+				C397B51D237E7BF200740DF9 /* Demo14ViewController.xib */,
+				C397B520237E870B00740DF9 /* CustomAnnotation.swift */,
+			);
+			path = demo15;
+			sourceTree = "<group>";
+		};
+		C397B522237EAB7D00740DF9 /* googlemap */ = {
+			isa = PBXGroup;
+			children = (
+				C397B523237EAB8E00740DF9 /* GoogleMapViewController.swift */,
+				C32CD41E2382A305005A7F8B /* MapMarkerWindowView.xib */,
+			);
+			path = googlemap;
+			sourceTree = "<group>";
+		};
 		C3A9C5FD23751ACC00FD0E97 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C397B522237EAB7D00740DF9 /* googlemap */,
+				C397B519237E7B3400740DF9 /* demo15 */,
 				C33BF5EE237BF14800E1B66C /* demo13 */,
 				C3D968EC237962E10002E7DB /* demo4 */,
 				C3D968E923795A6C0002E7DB /* demo3 */,
@@ -267,6 +301,7 @@
 				C35BF2F0236FD41600A4ED6A /* Sources */,
 				C35BF2F1236FD41600A4ED6A /* Frameworks */,
 				C35BF2F2236FD41600A4ED6A /* Resources */,
+				94839409ED92EE62F62292FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -316,7 +351,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3D968E1237934EE0002E7DB /* Main.storyboard in Resources */,
+				C32CD41F2382A305005A7F8B /* MapMarkerWindowView.xib in Resources */,
 				C35BF304236FD41B00A4ED6A /* LaunchScreen.storyboard in Resources */,
+				C397B51F237E7BF200740DF9 /* Demo14ViewController.xib in Resources */,
 				C35BF301236FD41B00A4ED6A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +383,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		94839409ED92EE62F62292FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -363,7 +417,9 @@
 				C35BF2F8236FD41600A4ED6A /* AppDelegate.swift in Sources */,
 				C3D968EB23795A8B0002E7DB /* Demo3ViewController.swift in Sources */,
 				C36420E7237D56900032AEEA /* DispatchQueueE.swift in Sources */,
+				C397B51E237E7BF200740DF9 /* Demo14ViewController.swift in Sources */,
 				C3D968D62378FE9C0002E7DB /* BaseViewController.swift in Sources */,
+				C397B51B237E7B6200740DF9 /* Demo15ViewController.swift in Sources */,
 				C32F03DF23728828003C8BF8 /* CollectionViewController.swift in Sources */,
 				C3D968DC237917750002E7DB /* Date.swift in Sources */,
 				C36420E5237CFF610032AEEA /* CountingOperation.swift in Sources */,
@@ -371,6 +427,8 @@
 				C33BF5F0237BF15B00E1B66C /* Demo13ViewController.swift in Sources */,
 				C3D968DF237934520002E7DB /* Demo2ViewController.swift in Sources */,
 				C3C580C623716C9800C5D17C /* PhoneBookTableViewCell.swift in Sources */,
+				C397B524237EAB8E00740DF9 /* GoogleMapViewController.swift in Sources */,
+				C397B521237E870B00740DF9 /* CustomAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,7 +572,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vfa.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vfa.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -534,7 +592,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vfa.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vfa.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

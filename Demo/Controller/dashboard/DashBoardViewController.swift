@@ -15,14 +15,18 @@ class DashBoardViewController: BaseViewController, UITableViewDelegate, UITableV
                    "4. Constructing and Using Table Views",
                    "5. Building Complex Layouts with Collection Views",
                    "6. Storyboards",
-                   "7. Concurrency"]
+                   "7. Concurrency",
+                   "8. Security",
+                   "9. Core location and Maps"]
     let content = [["Demo 1", "Demo 2","Demo 3","Demo 4","Demo 5"],
                    ["Demo 6"],
                    ["Demo 7"],
                    ["Demo 8", "Demo 9"],
                    ["Demo 10", "Demo 11"],
-    ["Demo 12"],
-    ["Demo 13"]]
+                   ["Demo 12"],
+                   ["Demo 13"],
+                   ["Demo 14"],
+                   ["Demo 15 Using MapKit","Google Map"]]
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return content[section].count
     }
@@ -49,9 +53,9 @@ class DashBoardViewController: BaseViewController, UITableViewDelegate, UITableV
                 screen = storyboard?.instantiateViewController(identifier: "StoryboardDemo2") as! Demo2ViewController
                 break
             case 2:
-            screen = storyboard?.instantiateViewController(identifier: "StoryboardDemo3") as! Demo3ViewController
-            break
-                case 3:
+                screen = storyboard?.instantiateViewController(identifier: "StoryboardDemo3") as! Demo3ViewController
+                break
+            case 3:
                 screen = storyboard?.instantiateViewController(identifier: "StoryboardDemo4") as! Demo4ViewController
                 break
             default:
@@ -60,6 +64,19 @@ class DashBoardViewController: BaseViewController, UITableViewDelegate, UITableV
         case 6:
             screen = storyboard?.instantiateViewController(identifier: "StoryboardDemo13") as! Demo13ViewController
             break
+        case 8:
+            switch indexPath.row{
+            case 0:
+                screen = storyboard?.instantiateViewController(identifier: "StoryboardDemo15") as! Demo15ViewController
+                break
+            case 1:
+                screen = GoogleMapViewController()
+                break
+            default:
+                screen = GoogleMapViewController()
+            }
+        
+            
         default:
             screen = storyboard?.instantiateViewController(identifier: "StoryboardDemo1") as! Demo1ViewController
         }
